@@ -4,42 +4,42 @@ import { useState } from "react";
 
 const works = [
   {
-    src: "/photos/02-coastline.jpg",
+    src: "./photos/02-coastline.jpg",
     alt: "海浪拍打礁石的黑白照片",
     index: "01",
     title: "海岸线",
     meta: "摄于 2025 · 海风与潮声",
   },
   {
-    src: "/photos/03-forest-light.jpg",
+    src: "./photos/03-forest-light.jpg",
     alt: "阳光穿过树林的黑白照片",
     index: "02",
     title: "森林之光",
     meta: "摄于 2025 · 晨间斜阳",
   },
   {
-    src: "/photos/04-alpine-lake.jpg",
+    src: "./photos/04-alpine-lake.jpg",
     alt: "雪山倒映湖面的黑白照片",
     index: "03",
     title: "高山湖泊",
     meta: "摄于 2024 · 雪山倒影",
   },
   {
-    src: "/photos/05-desert-dusk.jpg",
+    src: "./photos/05-desert-dusk.jpg",
     alt: "黄昏戈壁的黑白照片",
     index: "04",
     title: "戈壁黄昏",
     meta: "摄于 2024 · 风蚀与余晖",
   },
   {
-    src: "/photos/06-city-night.jpg",
+    src: "./photos/06-city-night.jpg",
     alt: "夜晚城市灯火的黑白照片",
     index: "05",
     title: "城市夜行",
     meta: "摄于 2023 · 灯火长街",
   },
   {
-    src: "/photos/07-aurora.jpg",
+    src: "./photos/07-aurora.jpg",
     alt: "夜空中极光的黑白照片",
     index: "06",
     title: "极光之下",
@@ -237,7 +237,7 @@ export default function Home() {
                 </div>
               </div>
               <figure className="photo feature-photo">
-                <img src="/photos/01-mist-valley.jpg" alt="雾气弥漫山谷的黑白照片" />
+                <img src="./photos/01-mist-valley.jpg" alt="雾气弥漫山谷的黑白照片" />
               </figure>
             </div>
           </div>
